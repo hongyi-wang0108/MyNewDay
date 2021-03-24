@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#293470">
+
+    <ImageView
+        android:id="@+id/iv_mind"
+        android:layout_width="62dp"
+        android:layout_height="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="4dp"
+        android:paddingRight="10dp"
+        app:srcCompat="@drawable/mind" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="208dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="New Day 倒计时"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_change_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        app:srcCompat="@drawable/fangge" />
+
+    <ImageView
+        android:id="@+id/iv_add_day_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        app:srcCompat="@drawable/adddate" />
+
+
+</LinearLayout>

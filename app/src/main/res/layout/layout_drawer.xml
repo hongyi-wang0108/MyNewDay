@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:paddingTop="6dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="New Days 倒数日" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_dl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:paddingTop="6dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/tv_dl_add_book"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="管理本子" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:paddingTop="6dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textVieddzw2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="倒数本" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:paddingTop="6dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/tv_history_dl"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="历史上的今天" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

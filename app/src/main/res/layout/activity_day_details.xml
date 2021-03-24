@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DayDetails">
+
+
+    <LinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back_dd"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp"
+            android:paddingRight="10dp"
+            app:srcCompat= "@drawable/back" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:paddingTop="6dp"
+            android:text="New Day 倒计时"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            app:srcCompat="@drawable/write" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="562dp"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_dd"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:text="text"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/tv_differ_dd"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:gravity="center"
+            android:text="text222"
+            android:textSize="90dp" />
+
+        <TextView
+            android:id="@+id/tv_day_dd"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:text="text222"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_background_dd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/adddate" />
+
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="背景" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_history_dd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/adddate" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="历史" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_savedraw_dd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/fangge" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="保存图片"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
